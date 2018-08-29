@@ -14,6 +14,7 @@ brew tap caskroom/cask
 brew cask install goland pycharm
 
 # Install Development Stuff
+brew install git git-lfs git-flow
 brew cask install hex-fiend keka wireshark sourcetree
 
 # Install Task Management
