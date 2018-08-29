@@ -1,6 +1,7 @@
 [user]
 	name = duck.
 	email = me@duck.me.uk
+	signingkey = 62BBD298
 
 [commit]
         gpgsign = true
@@ -12,3 +13,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[gpg]
+	program = gpg
