@@ -6,7 +6,7 @@
 [commit]
         gpgsign = true
 [core]
-	excludesfile = /Users/duck./.gitignore_global
+	excludesfile = /Users/duck/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
