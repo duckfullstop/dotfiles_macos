@@ -13,7 +13,7 @@ data.location=~/.task
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
+include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
 
@@ -21,3 +21,9 @@ context.home=-work
 context.work=+work
 default.command=next -BLOCKED
 verbose=blank,label
+taskd.certificate=\/Users\/duck\/.task\/duck.cert.pem
+taskd.key=\/Users\/duck\/.task\/duck.key.pem
+taskd.ca=\/Users\/duck\/.task\/ca.cert.pem
+taskd.server=tasks.duck.moe:53589
+taskd.credentials=Labcoats\/duck\/fb642582-271e-4b9b-a5d5-ef5aa65660d1
+taskd.trust=ignore hostname
