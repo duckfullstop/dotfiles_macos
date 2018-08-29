@@ -49,11 +49,11 @@ plugins=(
   git
   kubectl
   helm
+  golang
+  iterm2
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
 
 # Stop the user@host part appearing on the powerline when local, we know what system we're on!
 DEFAULT_USER=`whoami`
@@ -63,10 +63,5 @@ DEFAULT_USER=`whoami`
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
+# Show task list
+task
