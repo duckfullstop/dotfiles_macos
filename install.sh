@@ -7,45 +7,9 @@
 # Install oh-my-zsh
 [ ! -e ~/.oh-my-zsh ] && git clone --depth 1 git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && chmod +x ~/.oh-my-zsh/oh-my-zsh.sh
 
-# Tap Homebrew Cask
-brew tap caskroom/cask
 
-# Install IDEs
-brew cask install goland pycharm
-
-# Install Web Browsers
-brew cask install firefox-beta google-chrome
-
-# Install Development Stuff
-brew install git git-lfs git-flow
-brew cask install hex-fiend keka wireshark sourcetree sequel-pro
-
-# Install Random Utilities
-brew cask install iperf3 youtube-dl
-brew cask install suspicious-package
-
-# Install Task Management
-brew install task tasksh
-
-# Install Virt / Container Stuff
-brew cask install vmware-fusion docker
-brew install kubectl kubeadm
-
-# Install Media Stuff
-brew cask install iina # Media player
-brew cask install spotify swinsian
-
-# Install Chat Programs
-brew cask install discord quassel-client
-
-# Install Password Management
-brew cask install macpass
-
-# Install Plex Media Player
-brew cask install plex-media-player
-
-# Install File Transfer Stuff
-brew cask install transmit cyberduck
+# Install Brew packages
+brew bundle install
 
 # Link git config
 ln -sf .zshscripts/gitconfig ../.gitconfig
