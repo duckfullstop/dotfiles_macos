@@ -13,9 +13,16 @@ brew tap caskroom/cask
 # Install IDEs
 brew cask install goland pycharm
 
+# Install Web Browsers
+brew cask install firefox-beta google-chrome
+
 # Install Development Stuff
 brew install git git-lfs git-flow
-brew cask install hex-fiend keka wireshark sourcetree
+brew cask install hex-fiend keka wireshark sourcetree sequel-pro
+
+# Install Random Utilities
+brew cask install iperf3 youtube-dl
+brew cask install suspicious-package
 
 # Install Task Management
 brew install task tasksh
