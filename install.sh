@@ -12,17 +12,17 @@
 brew bundle install
 
 # Link git config
-ln -sf .zshscripts/gitconfig ../.gitconfig
+ln -sf .dotfiles/gitconfig ../.gitconfig
 
 # Link .zshrc
-ln -sf .zshscripts/zshrc ../.zshrc
+ln -sf .dotfiles/zshrc ../.zshrc
 
 # Link .taskrc
-ln -sf .zshscripts/taskrc ../.taskrc
+ln -sf .dotfiles/taskrc ../.taskrc
 
 # Link gpg-agent.conf
 mkdir -p ~/.gnupg
-ln -sf ../.zshscripts/gpg-agent.conf ../.gnupg/gpg-agent.conf
+ln -sf ../.dotfiles/gpg-agent.conf ../.gnupg/gpg-agent.conf
 
 # Change current shell to zsh
 shell_path="$(brew --prefix)/bin/zsh"
