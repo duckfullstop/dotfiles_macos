@@ -64,6 +64,5 @@ cask "wireshark"
 
 # virt
 cask "docker"
-brew "kubeadm"
 brew "kubectl"
 cask "vmware-fusion10"
