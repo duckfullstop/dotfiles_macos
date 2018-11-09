@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "jeffreywildman/homebrew-virt-manager"
 
 
 # fonts
@@ -39,6 +40,7 @@ cask "suspicious-package"
 brew "task"
 brew "tasksh"
 cask "transmit"
+cask "virt-manager"
 brew "wget"
 brew "youtube-dl"
 
