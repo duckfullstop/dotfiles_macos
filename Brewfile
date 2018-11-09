@@ -51,6 +51,7 @@ cask "spotify"
 cask "swinsian"
 
 # development stuff
+brew cask "atom"
 brew "git"
 brew "git-flow"
 brew "git-lfs"
