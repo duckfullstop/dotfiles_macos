@@ -14,7 +14,6 @@ cask "font-source-code-pro-for-powerline"
 cask "discord"
 cask "firefox-beta"
 cask "google-chrome"
-cask "quassel-client"
 cask "signal"
 
 # utilities - yubikey specific
