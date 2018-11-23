@@ -61,7 +61,7 @@ cask "hex-fiend"
 brew "pinentry-mac"
 cask "pycharm"
 brew "python"
-cask "sequel-pro"
+cask "sequel-pro-nightly"
 cask "sourcetree"
 cask "wireshark"
 
