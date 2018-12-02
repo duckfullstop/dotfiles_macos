@@ -15,6 +15,7 @@ cask "discord"
 cask "firefox-beta"
 cask "google-chrome"
 cask "signal"
+cask "slack"
 
 # utilities - yubikey specific
 brew "ykpers"
@@ -50,7 +51,7 @@ cask "spotify"
 cask "swinsian"
 
 # development stuff
-brew cask "atom"
+cask "atom"
 brew "git"
 brew "git-flow"
 brew "git-lfs"
