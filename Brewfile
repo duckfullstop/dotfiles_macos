@@ -17,10 +17,17 @@ cask "google-chrome"
 cask "signal"
 cask "slack"
 
+# b00ks
+cask "calibre"
+
+# 3d printer stuff
+cask "ultimaker-cura"
+
 # utilities - yubikey specific
 brew "ykpers"
 brew "ykman"
 brew "ykneomgr"
+cask "yubico-yubikey-manager"
 
 # utilities - android specific
 cask "android-file-transfer"
@@ -40,6 +47,7 @@ brew "speedtest-cli"
 cask "suspicious-package"
 brew "task"
 brew "tasksh"
+cask "transmission-remote-gui"
 cask "transmit"
 cask "virt-manager"
 brew "wget"
@@ -51,6 +59,7 @@ cask "plex-media-player"
 cask "iina"
 cask "spotify"
 cask "swinsian"
+cask "vlc"
 
 # development stuff
 cask "atom"
@@ -61,6 +70,7 @@ brew "go"
 brew "godep"
 cask "goland"
 cask "hex-fiend"
+cask "insomnia"  # still not completely sold, postman is cheaper
 brew "pinentry-mac"
 cask "pycharm"
 brew "python"
@@ -68,7 +78,8 @@ cask "sequel-pro-nightly"
 cask "sourcetree"
 cask "wireshark"
 
-# virt
+# virt & ops
+brew "coreos-ct"
 cask "docker"
 brew "kubectl"
 cask "vmware-fusion10"
