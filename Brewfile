@@ -43,6 +43,7 @@ brew "tasksh"
 cask "transmit"
 cask "virt-manager"
 brew "wget"
+brew "wireguard-tools"
 brew "youtube-dl"
 
 # media
