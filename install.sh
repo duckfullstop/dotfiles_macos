@@ -20,9 +20,10 @@ ln -sf .dotfiles/zshrc ../.zshrc
 # Link .taskrc
 ln -sf .dotfiles/taskrc ../.taskrc
 
-# Link gpg-agent.conf
+# Link gpg stuff
 mkdir -p ~/.gnupg
 ln -sf ../.dotfiles/gpg-agent.conf ../.gnupg/gpg-agent.conf
+ln -sf ../.dotfiles/scdaemon.conf ../.gnupg/scdaemon.conf
 
 # Change current shell to zsh
 shell_path="$(brew --prefix)/bin/zsh"
