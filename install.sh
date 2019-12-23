@@ -12,13 +12,20 @@
 brew bundle install
 
 # Link git config
-ln -sf .dotfiles/gitconfig ../.gitconfig
+ln -sf ../.dotfiles/gitconfig ../.gitconfig
 
 # Link .zshrc
-ln -sf .dotfiles/zshrc ../.zshrc
+ln -sf ../.dotfiles/zshrc ../.zshrc
 
 # Link .taskrc
-ln -sf .dotfiles/taskrc ../.taskrc
+ln -sf ../.dotfiles/taskrc ../.taskrc
+
+# Link OpenSC to a defined place so that the SSH config for pkcs11 can find it properly (annoyingly this requires sudo)
+sudo ln `brew list opensc | grep lib/opensc-pkcs11.so` /usr/local/lib/opensc-pkcs11.so
+
+# Link SSH config
+mkdir -p ../.ssh
+ln -sf ../.dotfiles/ssh_config ../.ssh/config
 
 # Link gpg stuff
 mkdir -p ~/.gnupg

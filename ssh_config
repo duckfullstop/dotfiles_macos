@@ -1,0 +1,4 @@
+PKCS11Provider /usr/local/lib/opensc-pkcs11.so
+
+Host home.duck.me.uk
+  ForwardAgent yes
